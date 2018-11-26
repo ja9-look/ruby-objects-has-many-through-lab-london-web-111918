@@ -22,7 +22,7 @@ class Patient
   end
   
   def doctors
-    patients.collect {|patient| patient.doctor}
+    appointments.collect {|appointment| appointment.doctors}
   end
   
   
